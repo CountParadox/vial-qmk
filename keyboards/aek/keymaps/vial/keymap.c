@@ -38,9 +38,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_LCTRL   ,KC_LALT    ,KC_SPACE   ,KC_M       ,KC_RALT    ,KC_RGUI    ,KC_RCTRL   ,KC_RIGHT   ,KC_KP_DOT  ,KC_AUDIO_VOL_UP ,\
       KC_LGUI    ,KC_C       ,KC_B       ,KC_J       ,KC_DOT     ,KC_RSHIFT  ,KC_LEFT    ,KC_KP_0    ,KC_KP_3    ,KC_PLUS     ,\
       KC_Z       ,KC_D       ,KC_G       ,KC_U       ,KC_L       ,KC_QUOTE   ,KC_DELETE  ,KC_KP_1    ,KC_KP_6    ,KC_AUDIO_VOL_DOWN,\
-      KC_A       ,KC_E       ,KC_T       ,KC_7       ,KC_O       ,KC_LBRACKET,KC_INSERT  ,RGB_RMOD  ,KC_KP_5    ,KC_KP_MINUS ,\
-      KC_Q       ,KC_3       ,KC_5       ,KC_PLUS    ,KC_9       ,KC_MINUS   ,KC_BSPACE  ,RGB_MOD    ,KC_KP_8    ,KC_KP_ASTERISK ,\
-      KC_1       ,KC_F2      ,KC_F4      ,KC_F6      ,KC_F8      ,KC_F10     ,KC_F12     ,KC_SLCK    ,KC_KP_EQUAL, QK_BOOT \
+      KC_A       ,KC_E       ,KC_T       ,KC_7       ,KC_O       ,KC_LBRACKET,KC_INSERT  ,KC_PGDOWN  ,KC_KP_5    ,KC_KP_MINUS ,\
+      KC_Q       ,KC_3       ,KC_5       ,KC_PLUS    ,KC_9       ,KC_MINUS   ,KC_BSPACE  ,KC_PGUP    ,KC_KP_8    ,KC_KP_ASTERISK ,\
+      KC_1       ,KC_F2      ,KC_F4      ,KC_F6      ,KC_F8      ,KC_F10     ,KC_F12     ,KC_SLCK    ,KC_KP_EQUAL, LGUI(KC_L) \
     ) /*,
     [_FN] = LAYOUT(
         QMKBEST, QMKURL,  _______,
