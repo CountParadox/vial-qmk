@@ -1,0 +1,16 @@
+{
+  "name": "onekey",
+  "lighting": "none",
+  "matrix": {
+    "rows": 1,
+    "cols": 1
+  },
+  "layouts": {
+    "labels": [],
+    "keymap": [
+      [
+        "0,0"
+      ]
+    ]
+  }
+}
